@@ -1,0 +1,49 @@
+.boxBanner {
+  background-image: url("../../assets/banner.png");
+  background-repeat:  no-repeat;
+  height: 560px;
+  display: flex;
+  align-items: center;
+  cursor: default;
+  h2 {
+    color: white;
+    margin-left: 150px;
+    font-size: 32px;
+    width: 350px;
+  }
+}
+
+.boxDoar {
+  div {
+    padding: 60px 0px 60px 60px;
+    display: flex;
+    align-items: center;
+    h2 {
+      font-size: 40px;
+      font-weight: lighter;
+      color: rgba(0, 86, 149, 1);
+    }
+  }
+}
+
+.boxCardDoar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0px 0px 180px 0px;
+  article {
+    padding: 24px;
+    width: 286px;
+    height: 321px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #b3cddf;
+    border-radius: 10px;
+    p {
+      text-align: center;
+      font-size: 21px;
+    }
+  }
+}

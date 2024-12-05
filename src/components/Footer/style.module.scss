@@ -1,0 +1,33 @@
+footer {
+  height: 188px;
+}
+
+.boxContato {
+  padding: 20px;
+  background-color: #005695;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  nav {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.boxFooter {
+  background-color: #232020;
+  color: white;
+  height: 68px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: default;
+}
