@@ -14,11 +14,27 @@ export default function Doacao() {
             <img src={livro} alt="Livro" />
             <h3>Informações do Livro</h3>
           </div>
-          <input type="text" placeholder="Titulo" />
-          <input type="text" placeholder="Categoria" />
-          <input type="text" placeholder="Autor" />
-          <input type="text" placeholder="Link da Imagem" />
-          <input type="submit" value="Doar" />
+          <input
+            type="text"
+            placeholder="Titulo"
+            title="Insira o Título do livro"
+          />
+          <input
+            type="text"
+            placeholder="Categoria"
+            title="Insira a Categoria do livro"
+          />
+          <input
+            type="text"
+            placeholder="Autor"
+            title="Insira o Autor(a) do livro"
+          />
+          <input
+            type="text"
+            placeholder="Link da Imagem"
+            title="Insira o link da imagem do livro"
+          />
+          <input type="submit" value="Doar" title="Clique para Doar" />
         </form>
       </div>
     </section>

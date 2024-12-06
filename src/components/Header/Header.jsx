@@ -7,7 +7,7 @@ const Header = () => {
     <header className={S.boxHeader}>
       <div className={S.boxLogo}>
         <img src={livrariaLogo} alt="Logo Livraria Vai na Web" title="Livros Vai na Web"/>
-        <h1 title="Livros Vai na Web">Livros Vai na Web</h1>
+        <h1 title="Desafio Empower - Vai na Web">Livros Vai na Web</h1>
       </div>
       <nav className={S.boxMenu}>
         <ul>
