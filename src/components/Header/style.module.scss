@@ -116,3 +116,9 @@ header {
     }
   }
 }
+
+@media (max-width: 180px) {
+  .boxMenu {
+    text-align: center;
+  }
+}

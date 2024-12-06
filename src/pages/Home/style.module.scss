@@ -84,3 +84,21 @@
     }
   }
 }
+
+@media (max-width: 210px) {
+  .boxCardDoar {
+    article {
+      p {
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+@media (max-width: 180px) {
+  .boxBanner {
+    h2 {
+      font-size: 24px;
+    }
+  }
+}
