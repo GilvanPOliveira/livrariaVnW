@@ -6,7 +6,7 @@
   align-items: center;
   cursor: default;
   h2 {
-    color: white;
+    color: #fff;
     margin-left: 150px;
     font-size: 32px;
     width: 350px;
@@ -21,7 +21,7 @@
     h2 {
       font-size: 40px;
       font-weight: lighter;
-      color: rgba(0, 86, 149, 1);
+      color: #015695;
     }
   }
 }
@@ -41,6 +41,7 @@
     justify-content: space-evenly;
     background-color: #b3cddf;
     border-radius: 10px;
+    cursor: default;
     p {
       text-align: center;
       font-size: 21px;

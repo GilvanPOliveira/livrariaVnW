@@ -6,8 +6,8 @@ const Header = () => {
   return (
     <header className={S.boxHeader}>
       <div className={S.boxLogo}>
-        <img src={livrariaLogo} alt="Logo Livraria Vai na Web"/>
-        <h1>Livros Vai na Web</h1>
+        <img src={livrariaLogo} alt="Logo Livraria Vai na Web" title="Livros Vai na Web"/>
+        <h1 title="Livros Vai na Web">Livros Vai na Web</h1>
       </div>
       <nav className={S.boxMenu}>
         <ul>
@@ -15,10 +15,10 @@ const Header = () => {
             <a href="/" title="Home">Home</a>
           </li>
           <li>
-            <a href="/doacao" title="Doação">Doação</a>
+            <a href="/livros-doados" title="Livros Doados">Livros Doados</a>
           </li>
           <li>
-            <a href="/quero-doar" title="Quero Doar">Quero Doar</a>
+            <a href="/doacao" title="Doação">Doação</a>
           </li>
         </ul>
       </nav>

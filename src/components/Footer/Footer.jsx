@@ -39,7 +39,7 @@ export default function footer() {
         </nav>
       </section>
       <section className={S.boxFooter}>
-        <p>Layout desenvolvido pela Vai Na Web para fins educativos - 2024</p>
+        <p title="Desafio Empower - Vai na Web">Layout desenvolvido pela Vai Na Web para fins educativos - 2024</p>
       </section>
     </div>
   );

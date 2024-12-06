@@ -9,7 +9,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: white;
+  color: #fff;
   nav {
     width: 250px;
     display: flex;
@@ -17,14 +17,14 @@ footer {
     justify-content: space-between;
   }
   a {
-    color: white;
+    color: #fff;
     text-decoration: none;
   }
 }
 
 .boxFooter {
   background-color: #232020;
-  color: white;
+  color: #fff;
   height: 68px;
   display: flex;
   justify-content: center;

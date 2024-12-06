@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import DefaultLayouts from "../layouts/DefaultLayouts";
 import Home from "../pages/Home/Home";
 import Doacao from "../pages/Doacao/Doacao";
-import QueroDoar from "../pages/QueroDoar/QueroDoar";
+import LivrosDoados from "../pages/LivrosDoados/LivrosDoados";
 
 const App = () => {
   return (
@@ -11,7 +11,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/doacao" element={<Doacao />} />
-          <Route path="/quero-doar" element={<QueroDoar />} />
+          <Route path="/livros-doados" element={<LivrosDoados />} />
         </Routes>
       </DefaultLayouts>
     </Router>
