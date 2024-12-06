@@ -8,7 +8,7 @@ export default function LivrosDoados() {
       <section className={S.boxCard}>
         <article>
           <img src={livro01} alt="O Protagonista" title="O Protagonista" />
-          <h3>O Protagonista</h3>
+          <p>O Protagonista</p>
           <p>Susane Andrade</p>
           <p>Ficção</p>
         </article>
