@@ -8,6 +8,7 @@
     font-size: 32px;
     font-weight: bold;
   }
+  cursor: default;
 }
 
 .boxCard {
@@ -16,6 +17,7 @@
   justify-content: center;
   padding: 20px 40px 20px 40px;
   gap: 40px;
+  cursor: pointer;
   article {
     padding: 20px;
     border: solid 2px #005695;
@@ -29,3 +31,4 @@
   }
 }
 
+ 

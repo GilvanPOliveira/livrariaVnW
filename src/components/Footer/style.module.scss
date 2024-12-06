@@ -31,3 +31,24 @@ footer {
   align-items: center;
   cursor: default;
 }
+
+@media (max-width: 530px) {
+  .boxFooter {
+    text-align: center;
+  }
+}
+
+@media (max-width: 420px) {
+  .boxContato {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+    height: auto;
+    nav {
+      width: 100%;
+      gap: 12px;
+      flex-wrap: wrap;
+    }	
+  }
+}
